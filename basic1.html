@@ -15,13 +15,19 @@ document.write("the weather is cold");
 else { document.write("the weather is moderate");}
 
 
-function valueHigh () {
-var numberHigh = ["1","2","3","4"];
-document.write(Math.max(...numberHigh));					
-;} 
+function valueHigh (arr) {
+ 
+var largestNumber = 0
+for (var i=0; i < arr.length; i++) {
+	if (arr[i] > largestNumber) {
+		largestNumber = arr [i];
+	} 
+} 
 
-valueHigh();
+console.log(largestNumber);
+} 
 
+valueHigh([1,2,12,4,5]);
 	</script>
 	
 	
