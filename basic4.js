@@ -2,6 +2,9 @@ var temperature = Math.floor((Math.random() * 50) - 5);
 if (temperature <= 5){
 
 
+
+
+
       
 
 document.getElementById('text').innerHTML="the weather is cold";
